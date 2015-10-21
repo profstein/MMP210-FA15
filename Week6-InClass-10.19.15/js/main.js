@@ -1,15 +1,18 @@
-
 function setup(){
-    //create the canvas. Here we are putting it into a variable so we can associate it with an element.
-    //When you are doing things like putting items in a grid, you may want the canvas dimensions to be specific numbers and not just windowWidth and windowHeight
+    //create the canvas. put into a variable to associate with a element
     var cnv = createCanvas(800,600);
     cnv.parent("windows");
     
     //draw a window by calling the drawWindow function
-    drawWindow();
+    drawWindow(50,50);
+    
+    drawWindow(200,50);
+    
+    
+    drawWindow(350,50);
 }
 
-function drawWindow(){
+function drawWindow(startX, startY){
     fill('peru');
-    rect(50,50,100,250);
+    rect(startX, startY,100,250);
 }
