@@ -5,7 +5,11 @@ function setup(){
     var cnv = createCanvas(800,600);
     cnv.parent("windows");
     
-    //draw a window
+    //draw a window by calling the drawWindow function
+    drawWindow();
+}
+
+function drawWindow(){
     fill('peru');
     rect(50,50,100,250);
 }
