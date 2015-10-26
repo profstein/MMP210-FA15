@@ -9,7 +9,7 @@ function setup(){
     //add stuff to the array with a loop
     for(var i=0; i<10000; i++){
 //        myArray[i] = "item " + i;
-        myArray[i] = i;
+        myArray[i] = ellipse(i,i,10,10);
     }
 
     //log out the array
@@ -17,8 +17,8 @@ function setup(){
 
     //Loop to go through every item in the array
     for(var i=0; i < myArray.length; i++){
-        myArray[i]+=10;
-//        console.log(myArray[i]);
+//        myArray[i]+=10;
+        console.log(myArray[i]);
     }
 
     console.log(myArray);
