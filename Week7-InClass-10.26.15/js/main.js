@@ -38,6 +38,21 @@ function mousePressed(){
     for(var i=0; i < myArray.length; i++){
         //myArray[i].x myArray[i].r
         d = dist(mouseX, mouseY, myArray[i].x, myArray[i].y);
-        console.log("distance",d);
+//        console.log("distance",d);
+
+        //check to see if the distance is less than the radius
+        //ie is the mouse in the bubble
+        if(d < myArray[i].r){
+            console.log("mouse in bubble");
+        }
     }
 }//end mousePressed
+
+
+
+
+
+
+
+
+
