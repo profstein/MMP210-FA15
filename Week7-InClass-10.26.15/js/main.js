@@ -40,7 +40,10 @@ function setup(){
 
     console.log(myArray);
 
-
-
 }//end setup
 
+//listen for mouse presses with the built-in p5 mousePressed method
+function mousePressed(){
+    //check that this is working
+    console.log("mouse Pressed");
+}
