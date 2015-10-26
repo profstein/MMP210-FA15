@@ -16,7 +16,7 @@ function Bubble(){
 
 function setup(){
     //create the canvas. put into a variable to associate with a element
-    var cnv = createCanvas(800,3000);
+    var cnv = createCanvas(windowWidth,windowHeight);
     cnv.parent("windows");
 
     var myArray = []; //create blank array
