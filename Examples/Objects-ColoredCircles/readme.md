@@ -1,1 +1,0 @@
-This example shows how to use objects to draw a bunch of shapes on the canvas and then interact with them individually. The example uses a simple shape, but the concept could be applied to more complex shapes.
