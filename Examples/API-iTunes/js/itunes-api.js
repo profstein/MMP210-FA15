@@ -5,7 +5,7 @@ function setup(){
     //ellipse(100,100,30,30); //test to see if p5 is working
 
     //url to NYC Social Media File
-    url = "http://itunes.apple.com/search?term=jack+johnson&limit=10&callback=jsonLoaded";
+    url = "//itunes.apple.com/search?term=jack+johnson&limit=10&callback=jsonLoaded";
 //    url = "https://itunes.apple.com/search?media=music&term=2&country=it&limit=60&attribute=genreIndex&entity=song&callback=me";
     //load the json file with jsonLoaded function as a callback
     loadJSON(url, jsonLoaded,jsonError,"json");
