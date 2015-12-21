@@ -30,13 +30,11 @@ function draw(){
 
 //JSON loaded callback
 function jsonLoaded(jsonData){
-    data = jsonData; console.log('data',data);
-    console.log('json loaded');
+    console.log('json loaded',jsonData);
+    data = jsonData; //console.log('data',data);
+    
+    
     setupGame(); //now that data is loaded we can setup the game
-    fill(data.player.fill);
-        strokeWeight(2);
-        stroke(data.player.stroke);
-        ellipse(50,50,20,20);
 }//end jsonLoaded
 
 function setupGame(){
